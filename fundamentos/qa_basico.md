@@ -27,3 +27,58 @@ habilidades de comunicação.
 automação, para encontrar defeitos.
  Testes Automatizados — Uso de scripts e ferramentas (robôs) para
 executar testes automaticamente.
+
+O teste de software faz parte dos processos de Verificação e Validação (V&V):
+Processo — Foco
+ Verificação — Estamos construindo o produto corretamente? (Arquitetura,
+design e implementação corretos)
+ Validação — Estamos construindo o produto certo? (Atende às
+necessidades e requisitos do usuário)
+Testar envolve executar o software para identificar defeitos e melhorar a
+qualidade.
+Os testes mostram a presença de defeitos, mas não conseguem provar sua
+ausência.
+Os testes podem ser:
+ Manuais — Interagir com o software como um usuário.
+ Automatizados — Escrever scripts/programas para testar o software.
+Por que Testar Software?
+ Aumentar a confiança de que o software atende aos requisitos do usuário.
+ Reduzir defeitos que causariam problemas em produção.
+ Identificar falhas cedo, já que as corrigir depois é mais caro.
+ Defeitos podem ter consequências graves, como prejuízo financeiro, falhas
+operacionais ou até risco à vida (ex.: saúde, veículos autônomos).
+Quem é Responsável pelos Testes?
+ A garantia de qualidade é responsabilidade de toda a equipe:
+desenvolvedores, testadores, product owners e demais envolvidos.
+ Existem papéis especializados (analistas de teste, engenheiros de
+automação, QA engineers, SDETs), mas todos contribuem para a qualidade.
+ A distinção entre testadores manuais e automatizados está cada vez menor;
+a maioria das vagas exige conhecimento em ambos.
+Quando Testar?
+Os testes acontecem ao longo de todo o Ciclo de Vida do Desenvolvimento de
+Software (SDLC):
+ Análise de requisitos
+ Revisão de design e arquitetura
+ Desenvolvimento (testes unitários e de integração)
+ Testes de sistema e de aceitação
+ Monitoramento e manutenção pós-produção
+Ferramentas de Automação Recomendadas:
+ Testes de Interface (UI): Selenium (Java recomendado)
+ Testes de API: Postman, REST-assured (Java)
+ Testes de Performance: k6, JMeter
+ Automação Desktop: Não especificado com precisão; a comunidade sugere
+Robot Framework.
+Principais Insights e Conclusões
+ O teste de software é essencial para garantir qualidade e satisfação do
+usuário, mas não pode garantir produtos sem defeitos.
+ A qualidade é multifacetada e deve ser avaliada em várias características
+definidas por normas internacionais.
+ Os testes são um processo contínuo integrado ao ciclo de vida do
+desenvolvimento de software.
+ Todos na equipe de desenvolvimento compartilham a responsabilidade pela
+qualidade, mas os testadores se especializam em detectar defeitos e manter
+padrões.
+ A automação complementa os testes manuais e é uma habilidade crucial na
+carreira moderna de testes de software.
+ Aprendizado contínuo e participação em comunidades (como Discord e aulas
+ao vivo) são vitais para o crescimento profissional
