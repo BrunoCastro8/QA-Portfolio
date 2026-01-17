@@ -27,6 +27,7 @@ habilidades de comunicação.
 automação, para encontrar defeitos.
  Testes Automatizados — Uso de scripts e ferramentas (robôs) para
 executar testes automaticamente.
+
 Resumo:
   - Direcionado para o processo e prevenção de bugs 
 
