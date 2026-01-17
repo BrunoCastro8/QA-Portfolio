@@ -126,12 +126,10 @@ QC
 
 Tarefas essenciais 
 
-	- Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos 
+- Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos 
 
-	-Realiza auditorias de controlo de qualidade 
+-Realiza auditorias de controlo de qualidade 
 
-	- Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos 
+- Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos 
 
-	-Identifica quaisquer não conformidades e as causas que as originaram 
- Aprendizado contínuo e participação em comunidades (como Discord e aulas
-ao vivo) são vitais para o crescimento profissional
+-Identifica quaisquer não conformidades e as causas que as originaram 
