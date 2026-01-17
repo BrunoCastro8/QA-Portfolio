@@ -1,4 +1,5 @@
 Fundamentos de QA, QC e QM
+
 **• QA (Quality Assurance)**
 
 QA — Processo de testar software para garantir que este cumpre os padrões de qualidade e funciona corretamente.
