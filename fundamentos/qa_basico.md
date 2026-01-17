@@ -127,4 +127,52 @@ Tarefas Essenciais:
 - Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos
 - Realiza auditorias de controlo de qualidade 
 - Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos
-- Identifica quaisquer não conformidades e as causas que as originaram 
+- Identifica quaisquer não conformidades e as causas que as originaram
+
+QM 
+
+A QM é a estratégia que vai definir a qualidade do processo. 
+
+A QM garante que a qualidade não depende apenas dos testers e dos developers mas sim de toda a empresa. 
+
+Serve para: 
+
+	-Definir objetivos de qualidade 
+
+	-Criar políticas e regras de qualidade 
+
+	-Definir como a empresa vai trabalhar com qualidade 
+
+	-Escolher os métodos e frameworks( Sigma, ISO, TQM) 
+
+	-Garantir a concordância entre todas as equipas e que estas sigam a mesma visão 
+
+ 
+
+Foca em: 
+
+	-Cultura da empresa 
+
+	-Objetivos 
+
+	-Políticas 
+
+	-Estrutura das equipas 
+
+	-Métodos de melhoria contínua 
+
+Resumo 
+
+	QM = estratégia e cultura da qualidade 
+	QA = prevenção de erros nos processos 
+	QC = deteção de erros no produto 
+
+ 
+
+Exemplo CASA 
+
+QM- O projeto da cas e as regras de construção 
+
+QA- Como os trabalhadores devem construir 
+
+QC- inspeção final da casa	
