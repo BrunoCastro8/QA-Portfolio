@@ -112,8 +112,8 @@ carreira moderna de testes de software.
 
 QC
 -Direcionado para o produto e identificação de bugs 
--É projetado para descobrir falhas ou defeitos em um produto ou processo 
-- É uma metodologia reativa que normalmente é executada no final das etapas de produção e no final do processo produtivo, antes que o produto seja enviado para o cliente ou usuário final.   
+-É projetado para descobrir falhas ou defeitos em um produto ou processo
+-É uma metodologia reativa que normalmente é executada no final das etapas de produção e no final do processo produtivo, antes que o produto seja enviado para o cliente ou usuário final.
 -Confirma se os produtos estão dentro dos padrões de qualidade especificados ou aceitáveis 
 -Identifica quando a qualidade não está presente, mas não garante qualidade 
 
