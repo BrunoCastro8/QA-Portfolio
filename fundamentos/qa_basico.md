@@ -31,11 +31,10 @@ executar testes automaticamente.
 Resumo:
   - Direcionado para o processo e prevenção de bugs 
 
-	- QA investiga as causas que levaram a essas falhas e procura corrigi-las.  
+- QA investiga as causas que levaram a essas falhas e procura corrigi-las.  
 
-	-Antecipa a sua ocorrência 
-
-	- Sistema projetado para evitar falhas em todas as etapas do processo de produção 
+-Antecipa a sua ocorrência 
+- Sistema projetado para evitar falhas em todas as etapas do processo de produção 
 
 - Garantir o sucesso do produto quanto à qualidade, segurança e em conformidade com todas as diretrizes legais e normativas. 
 
@@ -43,7 +42,7 @@ Resumo:
 
 Tarefas essenciais 
 
-	-Coleta de dados 
+-Coleta de dados 
 
 -Análise de tendências de problemas 
 
