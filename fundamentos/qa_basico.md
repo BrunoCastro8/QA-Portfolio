@@ -118,7 +118,7 @@ QC
 -Identifica quando a qualidade não está presente, mas não garante qualidade 
 
 Tarefas essenciais 
-- Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos 
--Realiza auditorias de controlo de qualidade 
-- Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos 
--Identifica quaisquer não conformidades e as causas que as originaram 
+- Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos
+- Realiza auditorias de controlo de qualidade 
+- Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos
+- Identifica quaisquer não conformidades e as causas que as originaram 
