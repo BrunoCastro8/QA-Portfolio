@@ -1,178 +1,232 @@
-QA (Quality Assurance) — Processo de testar software para garantir que ele
-atenda aos padrões de qualidade e funcione corretamente.
-QA envolve testar software para encontrar erros (bugs), sugerir melhorias e garantir
-que os sistemas funcionem corretamente antes de chegarem aos usuários finais. O
-foco é melhorar processos e prevenir problemas futuros por meio da implementação
-de estratégias de qualidade.
-Natureza do Trabalho:
- A função exige curiosidade e atenção aos detalhes.
- O trabalho inclui testes manuais, testes automatizados (usando programação
-para automação de testes), documentação e melhoria de processos.
- Profissionais de QA normalmente não projetam a arquitetura do sistema —
-essa é principalmente responsabilidade dos desenvolvedores — mas podem
-dar sugestões, especialmente em níveis mais seniores.
-Habilidades e Conhecimentos:
- Entendimento básico dos processos de teste de software é essencial.
- Algum conhecimento de programação ajuda, especialmente para testes
-automatizados.
- Habilidades de comunicação são importantes, apesar da ideia de que a área
-seja apenas para pessoas introvertidas; ser proativo em fazer perguntas e
-compartilhar descobertas é fundamental.
- Fluência em inglês não é obrigatória, a menos que o cargo envolva equipes
-internacionais.
-Quais habilidades são essenciais em QA?
-Conhecimento em testes, curiosidade, programação básica para automação e
-habilidades de comunicação.
- Testes Manuais — Testar o software manualmente, sem ferramentas de
-automação, para encontrar defeitos.
- Testes Automatizados — Uso de scripts e ferramentas (robôs) para
-executar testes automaticamente.
+Fundamentos de QA, QC e QM
+QA (Quality Assurance)
 
-Resumo:
-- Direcionado para o processo e prevenção de bugs 
-- QA investiga as causas que levaram a essas falhas e procura corrigi-las.
-- Antecipa a sua ocorrência   
-- Sistema projetado para evitar falhas em todas as etapas do processo de produção 
-- Garantir o sucesso do produto quanto à qualidade, segurança e em conformidade com todas as diretrizes legais e normativas. 
+QA — Processo de testar software para garantir que este cumpre os padrões de qualidade e funciona corretamente.
+QA envolve testar software para encontrar erros (bugs), sugerir melhorias e garantir que os sistemas funcionam corretamente antes de chegarem aos utilizadores finais.
 
- 
+O foco é melhorar processos e prevenir problemas futuros através da implementação de estratégias de qualidade.
 
-Tarefas essenciais 
+Natureza do Trabalho
 
--Coleta de dados 
+A função exige curiosidade e atenção ao detalhe
 
--Análise de tendências de problemas 
+O trabalho inclui:
 
--Identificação de processos 
+Testes manuais
 
--Análises de processos 
+Testes automatizados (usando programação para automação de testes)
 
--Melhoria de processos 
+Documentação
 
--Planos de inspeção e testes 
+Melhoria de processos
 
--Seleção de ferramentas para a rastreabilidade de defeitos 
+Profissionais de QA normalmente não projetam a arquitetura do sistema — essa é principalmente responsabilidade dos programadores — mas podem dar sugestões, especialmente em níveis mais séniores
 
--Controlo de documentos 
+Habilidades e Conhecimentos
 
--Treino de pessoas nas metodologias aplicáveis e nos processos envolvidos 
+Entendimento básico dos processos de teste de software é essencial
+
+Algum conhecimento de programação ajuda, especialmente para testes automatizados
+
+Habilidades de comunicação são importantes
+
+Ser proativo a fazer perguntas e a partilhar descobertas é fundamental
+
+Domínio de inglês não é obrigatório, a menos que a função envolva equipas internacionais
+
+Habilidades Essenciais em QA
+
+Conhecimento em testes
+
+Curiosidade
+
+Programação básica para automação
+
+Habilidades de comunicação
+
+Tipos de Teste
+
+Testes Manuais — Testar o software manualmente, sem ferramentas de automação, para encontrar defeitos
+
+Testes Automatizados — Uso de scripts e ferramentas para executar testes automaticamente
+
+Resumo — QA
+
+Direcionado para o processo e prevenção de defeitos
+
+QA investiga as causas que levaram às falhas e procura corrigi-las
+
+Antecipa a ocorrência de problemas
+
+Sistema concebido para evitar falhas em todas as etapas do processo de desenvolvimento
+
+Garante o sucesso do produto quanto à qualidade, segurança e conformidade com todas as diretrizes legais e normativas
+
+Tarefas Essenciais — QA
+
+Recolha de dados
+
+Análise de tendências de problemas
+
+Identificação de processos
+
+Análises de processos
+
+Melhoria de processos
+
+Planos de inspeção e de testes
+
+Seleção de ferramentas para a rastreabilidade de defeitos
+
+Controlo de documentos
+
+Formação de pessoas nas metodologias aplicáveis e nos processos envolvidos
+
+Teste de Software — Verificação e Validação (V&V)
 
 O teste de software faz parte dos processos de Verificação e Validação (V&V):
-Processo — Foco
- Verificação — Estamos construindo o produto corretamente? (Arquitetura,
-design e implementação corretos)
- Validação — Estamos construindo o produto certo? (Atende às
-necessidades e requisitos do usuário)
-Testar envolve executar o software para identificar defeitos e melhorar a
-qualidade.
-Os testes mostram a presença de defeitos, mas não conseguem provar sua
-ausência.
-Os testes podem ser:
- Manuais — Interagir com o software como um usuário.
- Automatizados — Escrever scripts/programas para testar o software.
-Por que Testar Software?
- Aumentar a confiança de que o software atende aos requisitos do usuário.
- Reduzir defeitos que causariam problemas em produção.
- Identificar falhas cedo, já que as corrigir depois é mais caro.
- Defeitos podem ter consequências graves, como prejuízo financeiro, falhas
-operacionais ou até risco à vida (ex.: saúde, veículos autônomos).
-Quem é Responsável pelos Testes?
- A garantia de qualidade é responsabilidade de toda a equipe:
-desenvolvedores, testadores, product owners e demais envolvidos.
- Existem papéis especializados (analistas de teste, engenheiros de
-automação, QA engineers, SDETs), mas todos contribuem para a qualidade.
- A distinção entre testadores manuais e automatizados está cada vez menor;
-a maioria das vagas exige conhecimento em ambos.
-Quando Testar?
-Os testes acontecem ao longo de todo o Ciclo de Vida do Desenvolvimento de
-Software (SDLC):
- Análise de requisitos
- Revisão de design e arquitetura
- Desenvolvimento (testes unitários e de integração)
- Testes de sistema e de aceitação
- Monitoramento e manutenção pós-produção
-Ferramentas de Automação Recomendadas:
- Testes de Interface (UI): Selenium (Java recomendado)
- Testes de API: Postman, REST-assured (Java)
- Testes de Performance: k6, JMeter
- Automação Desktop: Não especificado com precisão; a comunidade sugere
-Robot Framework.
-Principais Insights e Conclusões
- O teste de software é essencial para garantir qualidade e satisfação do
-usuário, mas não pode garantir produtos sem defeitos.
- A qualidade é multifacetada e deve ser avaliada em várias características
-definidas por normas internacionais.
- Os testes são um processo contínuo integrado ao ciclo de vida do
-desenvolvimento de software.
- Todos na equipe de desenvolvimento compartilham a responsabilidade pela
-qualidade, mas os testadores se especializam em detectar defeitos e manter
-padrões.
- A automação complementa os testes manuais e é uma habilidade crucial na
-carreira moderna de testes de software.
 
-QC
+Verificação
 
--Direcionado para o produto e identificação de bugs
+Estamos a construir o produto corretamente?
+Arquitetura, design e implementação corretos
 
--É projetado para descobrir falhas ou defeitos em um produto ou processo
+Validação
 
--É uma metodologia reativa que normalmente é executada no final das etapas de produção e no final do processo produtivo, antes que o produto seja enviado para o cliente ou usuário final
-Tarefas essenciais 
+Estamos a construir o produto certo?
+Atende às necessidades e requisitos do utilizador
 
--Confirma se os produtos estão dentro dos padrões de qualidade especificados ou aceitáveis
+O que é Testar
 
--Identifica quando a qualidade não está presente, mas não garante qualidade
+Testar envolve executar o software para identificar defeitos e melhorar a qualidade.
+Os testes mostram a presença de defeitos, mas não conseguem provar a sua ausência.
 
-Tarefas Essenciais:
-- Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos
-- Realiza auditorias de controlo de qualidade 
-- Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos
-- Identifica quaisquer não conformidades e as causas que as originaram
+Tipos de Testes
 
-QM 
+Manuais — Interagir com o software como um utilizador
 
-A QM é a estratégia que vai definir a qualidade do processo. 
+Automatizados — Escrever scripts ou programas para testar o software
 
-A QM garante que a qualidade não depende apenas dos testers e dos developers mas sim de toda a empresa. 
+Por que Testar Software
 
-Serve para: 
+Aumentar a confiança de que o software cumpre os requisitos do utilizador
 
-	-Definir objetivos de qualidade 
+Reduzir defeitos em produção
 
-	-Criar políticas e regras de qualidade 
+Identificar falhas cedo, pois corrigir mais tarde é mais caro
 
-	-Definir como a empresa vai trabalhar com qualidade 
+Evitar consequências graves como prejuízo financeiro, falhas operacionais ou riscos para a vida
 
-	-Escolher os métodos e frameworks( Sigma, ISO, TQM) 
+Quem é Responsável pelos Testes
 
-	-Garantir a concordância entre todas as equipas e que estas sigam a mesma visão 
+A garantia de qualidade é responsabilidade de toda a equipa:
 
- 
+Programadores
 
-Foca em: 
+Testadores
 
-	-Cultura da empresa 
+Product Owners
 
-	-Objetivos 
+Outros intervenientes
 
-	-Políticas 
+Existem papéis especializados:
 
-	-Estrutura das equipas 
+Analistas de teste
 
-	-Métodos de melhoria contínua 
+Engenheiros de automação
 
-Resumo 
+QA Engineers
 
-	QM = estratégia e cultura da qualidade 
-	QA = prevenção de erros nos processos 
-	QC = deteção de erros no produto 
+SDETs
 
- 
+A distinção entre testadores manuais e automatizados está cada vez menor
 
-Exemplo CASA 
+Quando Testar
 
-QM- O projeto da cas e as regras de construção 
+Os testes acontecem ao longo de todo o Ciclo de Vida do Desenvolvimento de Software (SDLC):
 
-QA- Como os trabalhadores devem construir 
+Análise de requisitos
 
-QC- inspeção final da casa	
+Revisão de design e arquitetura
+
+Desenvolvimento (testes unitários e de integração)
+
+Testes de sistema e de aceitação
+
+Monitorização e manutenção pós-produção
+
+Ferramentas de Automação Recomendadas
+
+Testes de Interface Gráfica (UI): Selenium (Java recomendado)
+
+Testes de API: Postman, REST-assured (Java)
+
+Testes de Desempenho: k6, JMeter
+
+Automação Geral: Robot Framework
+
+QC (Quality Control)
+Resumo — QC
+
+Direcionado para o produto e identificação de defeitos
+
+Projetado para descobrir falhas ou defeitos num produto ou processo
+
+Metodologia reativa, normalmente executada no final das etapas de produção, antes da entrega ao utilizador final
+
+Tarefas Essenciais — QC
+
+Confirmar se os produtos estão dentro dos padrões de qualidade aceitáveis
+
+Identificar quando a qualidade não está presente
+
+Aplicar medições para controlar, analisar e avaliar padrões de qualidade
+
+Realizar auditorias de controlo de qualidade
+
+Medidas comparativas com limites e tolerâncias definidos
+
+Identificar não conformidades e as suas causas
+
+QM (Quality Management)
+Definição
+
+QM é a estratégia que define a qualidade do processo.
+Garante que a qualidade não depende apenas dos testadores e programadores, mas de toda a empresa.
+
+Serve para
+
+Definir objetivos de qualidade
+
+Criar políticas e regras de qualidade
+
+Definir como a empresa vai trabalhar com qualidade
+
+Escolher métodos e frameworks (Sigma, ISO, TQM)
+
+Garantir o alinhamento entre todas as equipas
+
+Foco da QM
+
+Cultura da empresa
+
+Objetivos
+
+Políticas
+
+Estrutura das equipas
+
+Métodos de melhoria contínua
+
+Resumo Final
+Conceito	Significado
+QM	Estratégia e cultura da qualidade
+QA	Prevenção de erros nos processos
+QC	Deteção de erros no produto
+Exemplo — Analogia da Casa
+
+QM: O projeto da casa e as regras de construção
+
+QA: Como os trabalhadores devem construir
+
+QC: Inspeção final da casa
