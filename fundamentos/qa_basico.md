@@ -29,13 +29,10 @@ automação, para encontrar defeitos.
 executar testes automaticamente.
 
 Resumo:
-  - Direcionado para o processo e prevenção de bugs 
-
-- QA investiga as causas que levaram a essas falhas e procura corrigi-las.  
-
--Antecipa a sua ocorrência 
+- Direcionado para o processo e prevenção de bugs 
+- QA investiga as causas que levaram a essas falhas e procura corrigi-las.
+- Antecipa a sua ocorrência   
 - Sistema projetado para evitar falhas em todas as etapas do processo de produção 
-
 - Garantir o sucesso do produto quanto à qualidade, segurança e em conformidade com todas as diretrizes legais e normativas. 
 
  
@@ -114,22 +111,14 @@ padrões.
 carreira moderna de testes de software.
 
 QC
-  -Direcionado para o produto e identificação de bugs 
-
+-Direcionado para o produto e identificação de bugs 
 -É projetado para descobrir falhas ou defeitos em um produto ou processo 
-
 - É uma metodologia reativa que normalmente é executada no final das etapas de produção e no final do processo produtivo, antes que o produto seja enviado para o cliente ou usuário final.   
-
 -Confirma se os produtos estão dentro dos padrões de qualidade especificados ou aceitáveis 
-
 -Identifica quando a qualidade não está presente, mas não garante qualidade 
 
 Tarefas essenciais 
-
 - Aplica o uso de medições para controlar, analisar e avaliar os padrões da qualidade e dos processos 
-
 -Realiza auditorias de controlo de qualidade 
-
 - Medidas comparativas de QC com limites e tolerâncias previamente estabelecidos 
-
 -Identifica quaisquer não conformidades e as causas que as originaram 
