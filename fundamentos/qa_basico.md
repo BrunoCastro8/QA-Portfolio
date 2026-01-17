@@ -220,10 +220,12 @@ Estrutura das equipas
 Métodos de melhoria contínua
 
 **• Resumo Final**
+
 Conceito	Significado
 QM	Estratégia e cultura da qualidade
 QA	Prevenção de erros nos processos
 QC	Deteção de erros no produto
+
 **• Exemplo — Analogia da Casa**
 
 QM: O projeto da casa e as regras de construção
