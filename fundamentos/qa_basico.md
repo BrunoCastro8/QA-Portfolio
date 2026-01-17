@@ -1,12 +1,12 @@
 Fundamentos de QA, QC e QM
-QA (Quality Assurance)
+**• QA (Quality Assurance)**
 
 QA — Processo de testar software para garantir que este cumpre os padrões de qualidade e funciona corretamente.
 QA envolve testar software para encontrar erros (bugs), sugerir melhorias e garantir que os sistemas funcionam corretamente antes de chegarem aos utilizadores finais.
 
 O foco é melhorar processos e prevenir problemas futuros através da implementação de estratégias de qualidade.
 
-Natureza do Trabalho
+**• Natureza do Trabalho**
 
 A função exige curiosidade e atenção ao detalhe
 
@@ -22,7 +22,7 @@ Melhoria de processos
 
 Profissionais de QA normalmente não projetam a arquitetura do sistema — essa é principalmente responsabilidade dos programadores — mas podem dar sugestões, especialmente em níveis mais séniores
 
-Habilidades e Conhecimentos
+**• Habilidades e Conhecimentos**
 
 Entendimento básico dos processos de teste de software é essencial
 
@@ -34,7 +34,7 @@ Ser proativo a fazer perguntas e a partilhar descobertas é fundamental
 
 Domínio de inglês não é obrigatório, a menos que a função envolva equipas internacionais
 
-Habilidades Essenciais em QA
+**• Habilidades Essenciais em QA**
 
 Conhecimento em testes
 
@@ -44,13 +44,13 @@ Programação básica para automação
 
 Habilidades de comunicação
 
-Tipos de Teste
+**• Tipos de Teste**
 
 Testes Manuais — Testar o software manualmente, sem ferramentas de automação, para encontrar defeitos
 
 Testes Automatizados — Uso de scripts e ferramentas para executar testes automaticamente
 
-Resumo — QA
+**• Resumo — QA**
 
 Direcionado para o processo e prevenção de defeitos
 
@@ -62,7 +62,7 @@ Sistema concebido para evitar falhas em todas as etapas do processo de desenvolv
 
 Garante o sucesso do produto quanto à qualidade, segurança e conformidade com todas as diretrizes legais e normativas
 
-Tarefas Essenciais — QA
+**• Tarefas Essenciais — QA**
 
 Recolha de dados
 
@@ -82,32 +82,32 @@ Controlo de documentos
 
 Formação de pessoas nas metodologias aplicáveis e nos processos envolvidos
 
-Teste de Software — Verificação e Validação (V&V)
+**• Teste de Software — Verificação e Validação (V&V)**
 
 O teste de software faz parte dos processos de Verificação e Validação (V&V):
 
-Verificação
+  **• Verificação**
 
 Estamos a construir o produto corretamente?
 Arquitetura, design e implementação corretos
 
-Validação
+  **• Validação**
 
 Estamos a construir o produto certo?
 Atende às necessidades e requisitos do utilizador
 
-O que é Testar
+**• O que é Testar**
 
 Testar envolve executar o software para identificar defeitos e melhorar a qualidade.
 Os testes mostram a presença de defeitos, mas não conseguem provar a sua ausência.
 
-Tipos de Testes
+**• Tipos de Testes**
 
 Manuais — Interagir com o software como um utilizador
 
 Automatizados — Escrever scripts ou programas para testar o software
 
-Por que Testar Software
+**• Por que Testar Software**
 
 Aumentar a confiança de que o software cumpre os requisitos do utilizador
 
@@ -117,7 +117,7 @@ Identificar falhas cedo, pois corrigir mais tarde é mais caro
 
 Evitar consequências graves como prejuízo financeiro, falhas operacionais ou riscos para a vida
 
-Quem é Responsável pelos Testes
+**• Quem é Responsável pelos Testes**
 
 A garantia de qualidade é responsabilidade de toda a equipa:
 
@@ -141,7 +141,7 @@ SDETs
 
 A distinção entre testadores manuais e automatizados está cada vez menor
 
-Quando Testar
+**• Quando Testar**
 
 Os testes acontecem ao longo de todo o Ciclo de Vida do Desenvolvimento de Software (SDLC):
 
@@ -155,7 +155,7 @@ Testes de sistema e de aceitação
 
 Monitorização e manutenção pós-produção
 
-Ferramentas de Automação Recomendadas
+**• Ferramentas de Automação Recomendadas**
 
 Testes de Interface Gráfica (UI): Selenium (Java recomendado)
 
@@ -165,8 +165,8 @@ Testes de Desempenho: k6, JMeter
 
 Automação Geral: Robot Framework
 
-QC (Quality Control)
-Resumo — QC
+**• QC (Quality Control)**
+**• Resumo — QC**
 
 Direcionado para o produto e identificação de defeitos
 
@@ -174,7 +174,7 @@ Projetado para descobrir falhas ou defeitos num produto ou processo
 
 Metodologia reativa, normalmente executada no final das etapas de produção, antes da entrega ao utilizador final
 
-Tarefas Essenciais — QC
+**• Tarefas Essenciais — QC**
 
 Confirmar se os produtos estão dentro dos padrões de qualidade aceitáveis
 
@@ -188,13 +188,13 @@ Medidas comparativas com limites e tolerâncias definidos
 
 Identificar não conformidades e as suas causas
 
-QM (Quality Management)
-Definição
+**• QM (Quality Management)**
+**• Definição**
 
 QM é a estratégia que define a qualidade do processo.
 Garante que a qualidade não depende apenas dos testadores e programadores, mas de toda a empresa.
 
-Serve para
+**• Serve para**
 
 Definir objetivos de qualidade
 
@@ -206,7 +206,7 @@ Escolher métodos e frameworks (Sigma, ISO, TQM)
 
 Garantir o alinhamento entre todas as equipas
 
-Foco da QM
+**• Foco da QM**
 
 Cultura da empresa
 
@@ -218,12 +218,12 @@ Estrutura das equipas
 
 Métodos de melhoria contínua
 
-Resumo Final
+**• Resumo Final**
 Conceito	Significado
 QM	Estratégia e cultura da qualidade
 QA	Prevenção de erros nos processos
 QC	Deteção de erros no produto
-Exemplo — Analogia da Casa
+**• Exemplo — Analogia da Casa**
 
 QM: O projeto da casa e as regras de construção
 
