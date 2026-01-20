@@ -1,105 +1,134 @@
-# Tipos de Teste em QA — Fundamentos
+# Tipos de QA — Áreas e Tipos de Teste
 
-Este documento apresenta os principais tipos de teste em QA, explicados de forma simples, com exemplos práticos e a diferença entre testes manuais e automatizados.
+Este documento apresenta os principais tipos de teste em QA, com foco no que o sistema faz, como se comporta e como a qualidade é validada em diferentes níveis.
 
 ---
 
 ## Testes Funcionais
 
-Os testes funcionais testam o que o sistema faz. O objetivo é garantir que as funcionalidades se comportam conforme os requisitos definidos.
+Testam o que o sistema faz, tendo por base as funcionalidades e ações específicas que o software deve realizar para atender às necessidades do utilizador.
 
-São testes do tipo **caixa preta**, ou seja, não interessa como o sistema foi construído internamente, apenas o resultado que apresenta ao utilizador.
+### Características
+- Não se preocupam com o código (caixa preta)  
+- Validam o comportamento do sistema  
+- Baseiam-se em entradas e saídas  
 
 ### Exemplos
-- Verificar se o login funciona com credenciais válidas e inválidas  
-- Confirmar se o envio de um formulário apresenta a mensagem correta  
-- Validar se um desconto é aplicado corretamente numa compra  
+- Testar login com dados válidos  
+- Verificar envio de e-mail após registo  
+- Validar cálculo de desconto num carrinho  
 
 ---
 
 ## Testes Não Funcionais
 
-Os testes não funcionais avaliam como o sistema se comporta, em vez de apenas o que ele faz. O foco é a qualidade da aplicação.
+Avaliam como o sistema se comporta sob diferentes aspetos que não estão diretamente relacionados com a lógica funcional.
 
-### Incluem
-- **Desempenho** — Tempo de resposta do sistema  
-- **Carga** — Funcionamento com muitos utilizadores ao mesmo tempo  
-- **Stress** — Limites máximos que o sistema consegue suportar  
-- **Segurança** — Proteção contra acessos não autorizados  
-- **Usabilidade** — Facilidade de uso para o utilizador  
-- **Compatibilidade** — Funcionamento em diferentes dispositivos e navegadores  
+### Subtipos Principais
 
-### Exemplo
-Testar se um site continua a funcionar corretamente quando muitas pessoas fazem compras ao mesmo tempo.
+### Desempenho
+- Tempo de resposta  
+- Uso de CPU  
+- Throughput (capacidade de processamento)
+
+### Carga
+- Comportamento com grande volume de utilizadores
+
+### Stress
+- Comportamento em condições extremas
+
+### Segurança
+- Autenticação  
+- Autorização  
+- Ataques
+
+### Usabilidade
+- Experiência do utilizador final
+
+### Compatibilidade
+- Navegadores  
+- Dispositivos  
+- Sistemas operativos
 
 ---
 
 ## Testes Estruturais (Caixa Branca)
 
-Os testes estruturais analisam a estrutura interna do código. O foco é perceber se as partes do programa funcionam corretamente por dentro.
+Testam a estrutura interna do código, como condições, loops, fluxos lógicos e cobertura.
 
-Normalmente são feitos a nível **unitário e de integração**.
+### Envolvem
+- Análise do código-fonte  
+- Cobertura de código (linhas, condições, caminhos)
 
-### Foco
-- Cobertura de código  
-- Condições (IF / ELSE)  
-- Loops  
-- Tratamento de exceções  
+### Exemplos
+- Testar se todos os ramos de um IF foram cobertos  
+- Validar se exceções são corretamente tratadas  
+- Cobertura de laços (for, while)
 
-### Ferramentas Comuns
-- JavaScript: Jest, Istanbul  
-- Java: JUnit, JaCoCo  
+### Ferramentas
+- Jest  
+- JUnit  
+- Istanbul  
+- JaCoCo  
 
 ---
 
 ## Testes de Regressão
 
-Os testes de regressão garantem que o que já funcionava continua a funcionar depois de uma alteração no sistema.
+Garantem que as funcionalidades existentes não foram afetadas por alterações ou atualizações no sistema (correções ou novas funcionalidades).
 
-São usados após:
-- Correções de bugs  
-- Atualizações do sistema  
-- Refatoração de código  
-- Novos deploys  
+A automatização dos testes de regressão é altamente recomendada.
 
-A automatização é muito recomendada neste tipo de teste, porque eles são repetitivos e precisam de ser executados muitas vezes.
+### Aplicações Comuns
+- Após deploys  
+- Em pipelines de CI/CD (fluxos automatizados que constroem, preparam e testam o software para lançamento)  
+- Quando há refatorações (reestruturação do código para melhorar qualidade interna, como design, legibilidade e manutenibilidade)
 
 ---
 
 ## Testes Exploratórios
 
-Os testes exploratórios são feitos sem um plano rígido. O QA explora o sistema como se fosse um utilizador real, tentando encontrar problemas que não estavam previstos nos testes formais.
+Realizados sem roteiros definidos, com base na experiência e intuição do tester.
+
+> “Testar com olhos de utilizador”
 
 ### Benefícios
-- Encontram problemas inesperados  
-- Simulam o comportamento real do utilizador  
-- Complementam os testes planeados  
+- Revelam bugs não previstos  
+- Ideais para sistemas pouco documentados  
+- Complementam testes tradicionais  
 
 ---
 
 ## Testes de Aceitação
 
-Os testes de aceitação validam se o sistema atende às necessidades do utilizador e do negócio.
+Validações feitas com a perspetiva do cliente ou do utilizador final.
 
-Normalmente são realizados pelo:
-- Cliente  
-- Product Owner  
-- Utilizadores finais  
+### Objetivo
+- Garantir que o sistema cumpre os requisitos do negócio
+
+### Tipos
+- **UAT (User Acceptance Testing)** — Executado pelo cliente  
+- **Testes baseados em critérios de aceitação** — Gherkin / BDD  
 
 ### Exemplo
-Verificar se, depois de uma compra:
-- O pagamento é processado corretamente  
-- O e-mail de confirmação é enviado  
-- O stock é atualizado no sistema  
+Utilizador realiza um pagamento com sucesso.
+
+**Critério de sucesso:**
+- Transação registada  
+- E-mail enviado  
+- Stock atualizado  
 
 ---
 
 ## Testes Manuais vs Testes Automatizados
 
+Os testes manuais enquadram-se melhor em exploração, validação visual e mudanças frequentes.  
+Os testes automatizados são ideais para testes repetitivos, regressão e validação em larga escala, onde a execução rápida e consistente traz valor.
+
 | Aspeto | Manual | Automatizado |
 |--------|--------|--------------|
-| Execução | Realizado por uma pessoa | Executado por scripts e ferramentas |
-| Repetição | Custo mais alto | Baixo custo por execução |
+| Execução | Humano | Scripts executados por ferramentas |
+| Repetição | Custo alto | Baixo custo por execução |
 | Adaptação | Alta flexibilidade | Requer manutenção |
 | Melhor uso | Testes exploratórios e visuais | Testes repetitivos, regressão e unitários |
 
@@ -107,15 +136,19 @@ Verificar se, depois de uma compra:
 
 ## Tipos de Teste por Nível
 
-| Nível | Foco |
-|------|------|
-| **Unitário** | Testa funções ou métodos isoladamente |
-| **Integração** | Testa a comunicação entre módulos |
-| **Sistema** | Testa o sistema como um todo |
-| **Aceitação** | Valida se o sistema atende às necessidades do utilizador |
+Cada nível cobre um objetivo diferente e complementa os restantes.
 
-### Quem Normalmente Testa
-- **Unitário** — Programadores  
-- **Integração** — Programadores e QA  
-- **Sistema** — QA  
-- **Aceitação** — Cliente / Product Owner  
+| Nível | Foco | Quem Faz |
+|------|------|----------|
+| **Unitário** | Testa funções/métodos isoladamente | Programadores |
+| **Integração** | Testa comunicação entre módulos | Programadores e QAs |
+| **Sistema** | Testa o sistema como um todo | Principalmente QAs / Testers |
+| **Aceitação** | Valida se o sistema atende às necessidades | Cliente, Product Owner ou utilizadores-chave |
+
+---
+
+## Conclusão
+
+Os diferentes tipos e níveis de teste permitem validar tanto o funcionamento do sistema como a sua qualidade, desempenho e adequação às necessidades do utilizador final.
+
+A combinação entre testes manuais, automatizados, funcionais e não funcionais contribui para um processo de desenvolvimento mais fiável e para a entrega de software com maior qualidade.
