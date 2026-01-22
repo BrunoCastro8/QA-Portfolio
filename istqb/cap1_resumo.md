@@ -115,3 +115,243 @@ As causas raiz são identificadas através da análise da raiz do problema.
 - Os testes desgastam. A sua repetição torna ineficaz a deteção de novos defeitos. Para contornar a questão, deve-se alterar casos de testes existentes, mudar dados de teste, criar novos testes e explorar novos cenários (criatividade). Em alguns casos faz sentido a repetição, como nos testes de regressão automatizados, pois estes não têm o objetivo de encontrar novos defeitos, mas sim de confirmar que o que funcionava continua a funcionar  
 - Os testes são dependentes do contexto.
 - Falácia da ausência de defeitos. É um erro achar que a verificação de software irá assegurar o sucesso do sistema, pois o sistema produzido pode não satisfazer as necessidades e as expectativas dos utilizadores. Por isso, deve ser efetuada a validação
+
+# Syllabus ISTQB — Capítulo 1  
+**Resumo pessoal — Processo de Teste, Papéis e Competências**
+
+---
+
+## Processo de Teste
+
+Processo de testes é um conjunto de atividades de teste.  
+“Questões como quais são as atividades de teste que estão incluídas no processo de teste, como são implementadas e quando ocorrem, são normalmente decididas no âmbito do planeamento dos testes.”
+
+---
+
+## Atividades e Tarefas de Teste
+
+Podem ser implementadas iterativamente ou paralelamente.  
+São adaptadas ao sistema e ao projeto.
+
+### Planeamento de Testes
+Definir os objetivos dos testes e a melhor abordagem para concretizar esses mesmos objetivos, tendo em conta as limitações impostas no contexto geral.
+
+### Monitorização e Controlo de Testes
+Verificação contínua das atividades e comparação de progresso atual com o desejado.  
+Envolve a adoção de medidas necessárias para cumprir os objetivos do teste.
+
+### Análise de Teste
+Analisar a base de testes, características passíveis de teste e definir as condições de teste, juntamente com os riscos relacionados e os níveis de risco.  
+É suportada pela utilização de técnicas de teste.  
+**“O que testar?”**
+
+### Conceção de Teste
+Concretização das condições de teste (o que testar?) em casos de teste e outro testware.  
+Identifica-se os itens de cobertura (elementos que precisam de ser cobertos pelos testes) que ajudam a definir os dados de entrada, os resultados esperados e as pré-condições dos casos de teste.
+
+São aplicadas as técnicas de teste.  
+São definidos os requisitos de dados de teste, o ambiente de teste e as ferramentas e infraestruturas necessárias.  
+**“Como testar?”**
+
+### Implementação do Teste
+Implica criar ou adquirir o testware necessário para a execução de teste.
+
+Inclui:
+- Casos de teste  
+- Procedimentos de teste  
+- Baterias de teste  
+
+Nesta fase criam-se scripts e testes manuais e automatizados.  
+Os procedimentos de teste são organizados e priorizados num cronograma de forma a obter a maior eficiência.  
+O ambiente de teste é configurado e validado.  
+**“Está tudo pronto para executar os testes?”**
+
+### Execução de Teste
+Execução de acordo com o cronograma.  
+Pode ser manual ou automatizada.
+
+Inclui:
+- Testes contínuos ou sessões de teste em pares  
+- Comparação dos resultados com os esperados  
+- Registo dos resultados  
+- Análise dos defeitos para identificar as causas prováveis  
+- Comunicação dos defeitos com base nas falhas observadas  
+
+### Conclusão do Teste
+Ocorre no lançamento do projeto, fim da iteração e conclusão do nível de teste.
+
+O objetivo é encerrar formalmente os testes.  
+São revistos defeitos não resolvidos, pedidos de alteração e itens do backlog do produto criados durante os testes.
+
+Os itens são documentados, priorizados e encaminhados para as equipas responsáveis.  
+Testware que possa ser útil no futuro é arquivado e entregue às equipas para reutilização.  
+O ambiente de teste é encerrado para um estado acordado.
+
+São identificadas as lições aprendidas e as melhorias a implementar no futuro.  
+É criado um relatório de conclusão do teste para os stakeholders.
+
+---
+
+## Fatores que Influenciam o Processo de Teste
+
+Os testes são financiados pelos stakeholders com o objetivo final de satisfazer as necessidades do negócio.  
+A forma como os testes serão realizados depende de fatores contextuais.
+
+Estes fatores têm impacto na:
+- Estratégia de teste  
+- Técnicas de teste utilizadas  
+- Grau de automação de testes  
+- Nível de cobertura necessário  
+- Nível de detalhe da documentação e dos relatórios  
+
+### Fatores Contextuais
+- Stakeholders (necessidades, expectativas, requisitos, vontade de colaborar, etc.)  
+- Membros da equipa (competências, conhecimento, nível de experiência, disponibilidade, necessidades de formação, etc.)  
+- Área de negócio (grau de importância, riscos identificados, necessidades de mercado, regulamentações legais, etc.)  
+- Fatores técnicos (tipo de software, arquitetura do produto, tecnologia utilizada, etc.)  
+- Restrições do projeto (âmbito, prazo, orçamento, recursos, etc.)  
+- Fatores organizacionais (estrutura, políticas, práticas utilizadas, etc.)  
+- SDLC  
+- Ferramentas (disponibilidade, usabilidade, conformidade, etc.)
+
+---
+
+## Testware e Produtos de Trabalho
+
+Testware resulta das atividades de teste, varia de organização para organização e deve ser gerido de maneira correta através da gestão de configurações para assegurar a consistência e a integridade dos produtos de trabalho.
+
+### Produtos de Trabalho do Planeamento de Testes
+- Plano de testes  
+- Cronograma de testes  
+- Registo de riscos  
+- Critérios de entrada e saída  
+
+### Produtos de Trabalho da Monitorização e Controlo de Testes
+- Relatórios de progresso de testes  
+- Documentação das diretivas de controlo  
+- Informações dos riscos  
+
+### Produtos de Trabalho da Análise de Teste
+- Condições de teste (priorizadas)  
+- Relatórios de defeitos em relação aos defeitos na base para testes  
+
+### Produtos de Trabalho da Conceção de Teste
+- Casos de teste (priorizados)  
+- Cartas de testes  
+- Itens de cobertura  
+- Requisitos dos dados de teste  
+- Requisitos do ambiente de teste  
+
+### Produtos de Trabalho da Implementação do Teste
+- Procedimentos de teste  
+- Scripts de teste automatizados  
+- Baterias de testes  
+- Dados de teste  
+- Cronogramas de execução de testes  
+- Elementos do ambiente de teste (stubs, controladores, simuladores e virtualizações de serviços)  
+
+### Produtos de Trabalho da Execução de Teste
+- Registos de teste  
+- Relatórios de defeitos  
+
+### Produtos de Trabalho da Conclusão do Teste
+- Relatório de conclusão de teste  
+- Pontos de melhoria em projetos ou iterações futuras  
+- Documentação das lições aprendidas  
+- Pedidos de alteração  
+
+---
+
+## Rastreabilidade
+
+É importante estabelecer e manter a rastreabilidade ao longo do processo de teste.
+
+Inclui a ligação entre:
+- Base para testes  
+- Testware associado aos respetivos elementos (condições, riscos, casos de teste)  
+- Resultados do teste  
+- Defeitos detetados  
+
+É bastante útil ter critérios mensuráveis de cobertura definidos na base de testes.  
+Os critérios de cobertura podem funcionar como indicadores-chave de desempenho (KPI).
+
+A rastreabilidade dos casos de teste com requisitos permite verificar se os requisitos são cobertos por casos de teste.
+
+A rastreabilidade dos resultados do teste com riscos pode ser utilizada para avaliar o nível de risco residual num objeto de teste.
+
+### Uma boa rastreabilidade permite:
+- Avaliar a cobertura  
+- Determinar o impacto das alterações  
+- Facilitar auditorias de teste  
+- Cumprir os critérios de governança de TI  
+- Tornar os relatórios de progresso e conclusão de testes mais fáceis de compreender  
+- Comunicar os aspetos técnicos dos testes aos stakeholders de forma mais compreensível  
+- Fornecer informações para avaliar a qualidade do produto, capacidade do processo e progresso do projeto, relacionando-os com os objetivos de negócio  
+
+---
+
+## Funções nos Testes
+
+### Função de Gestão de Teste
+Responsável pelo processo de teste como um todo, pela equipa de teste e pela liderança das atividades.
+
+Foca-se no:
+- Planeamento  
+- Monitorização  
+- Controlo  
+- Conclusão dos testes  
+
+Tudo isto depende do contexto.  
+Por exemplo, em ambientes ágeis, algumas tarefas podem ser exercidas pela equipa Agile ou por gestores de teste.
+
+**Objetivo:** Garantir que o processo de teste é organizado, controlado e completo.
+
+### Função de Teste
+Responsável pelo aspeto técnico da engenharia de testes.
+
+Concentra-se na:
+- Análise  
+- Conceção  
+- Implementação  
+- Execução dos testes  
+
+Executado por testers ou engenheiros de teste.
+
+**Objetivo:** Garantir que os testes são corretos, eficazes e cobrem os requisitos.
+
+---
+
+## Competências dos Testadores
+
+### Competências Gerais
+- Conhecimento de testes  
+- Minucioso, cuidado, curioso, atenção ao detalhe, ser metódico a identificar defeitos  
+- Boa comunicação, escuta ativa e espírito de equipa  
+- Pensamento analítico, crítico e criatividade  
+- Conhecimento técnico  
+- Conhecimento da área de negócio  
+
+De forma a melhorar a qualidade do produto, as informações sobre os defeitos e as falhas devem ser comunicadas de forma construtiva.
+
+---
+
+## Whole Team Approach e Independência de Testes
+
+Qualquer membro da equipa com as competências e os conhecimentos necessários para as tarefas e todos os envolvidos no projeto são responsáveis pela qualidade.  
+Todos partilham o mesmo espaço (físico ou virtual).  
+Melhora a dinâmica, a comunicação e a colaboração da equipa.  
+Cria sinergias.
+
+### Inclui:
+- Colaborar com os representantes do negócio no sentido de ajudar a criar testes de aceitação adequados  
+- Trabalhar com programadores para acordar a estratégia de teste e decidir as abordagens à automação de testes a seguir  
+
+“Em sistemas críticos, é importante que os testes sejam conduzidos por uma equipa de teste independente, garantindo maior rigor e confiabilidade (ex.: software médico, sistemas de aviação, controlos nucleares).”
+
+“Quanto mais independente for o testador, maior a imparcialidade e menor o risco de passar erros despercebidos.”
+
+### Níveis de Independência nos Testes
+- Programadores a efetuarem testes de componentes e testes de integração de componentes  
+- Equipa de teste a efetuar testes de sistema e testes de integração de sistemas  
+- Representantes do negócio a efetuarem testes de aceitação  
+
